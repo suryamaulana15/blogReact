@@ -51,7 +51,13 @@ class Blog extends Component {
         }
 
         return (
-            <div>
+            <div className="Blog">
+                <header>
+                    <ul>
+                        <li><a href="/">home</a></li>
+                        <li><a href="new">New Post</a></li>
+                    </ul>
+                </header>
                 <section className="Posts">
                     {posts}
                 </section>
